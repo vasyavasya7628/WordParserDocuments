@@ -13,7 +13,7 @@ public class WordToHtmlParser
             string[] patterns = new string[]
             {
                 @"_{2,}",   // Паттерн для поиска подчеркиваний (более 2 символов)
-                @"[^_]"    // Паттерн для поиска строки, не содержащей подчеркивание
+                @"^(?!_{2,}).+$"    // Паттерн для поиска строки, не содержащей подчеркивание
             };
 
             foreach (var paragraph in doc.Paragraphs)
@@ -46,12 +46,12 @@ public class WordToHtmlParser
                                     shouldAddBlock = true;
                                     break;
 
-                                case @"[^_]":
+                                case @"^(?!_{2,}).+$":
                                     formattedHtml +=
                                         $"<table width=\"100%\">\r\n" +
                                         $"  <tr>\r\n" +
-                                        $"    <td width=\"5\"></td>\r\n" +
-                                        $"    <td width=\"95%\" style=\"text-indent:20px;\">{paragraphText}</td>\r\n" +
+                                       
+                                        $"    <td width=\"100%\"\">{paragraphText}</td>\r\n" +
                                         $"  </tr>\r\n" +
                                         $"</table>";
 
