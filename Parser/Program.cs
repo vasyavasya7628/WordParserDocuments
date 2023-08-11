@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Parser;
 
-    Console.WriteLine("Hello, World!");
+class Program
+{
+    static void Main(string[] args)
+    {
+        string wordFilePath = "new.docx";
+        string htmlOutput = WordToHtmlParser.ConvertToHtml(wordFilePath);
+
+        Console.WriteLine(htmlOutput);
+    }
+}

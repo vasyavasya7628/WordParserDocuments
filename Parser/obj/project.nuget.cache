@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "xm0sRs2hc0tv/4Y4E0OCCVgqOQKHA4Pgmxr1vn2MU2uVOHIcoRKYiRHj6Q5tnWa9+AiNKWjQFAfSkh5KPKmi6A==",
+  "dgSpecHash": "T4VM+4Ntpj/I/fRolkf3diHslmirVNsRmvX5EKqMIA7jGp9BazW/w7uh7nqZvxqtoBUIrXYRslpjeKNwqX4eRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\IT2.UMFC-KO\\RiderProjects\\Parser\\Parser\\Parser.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IT2.UMFC-KO\\.nuget\\packages\\docx\\2.4.1\\docx.2.4.1.nupkg.sha512",
+    "C:\\Users\\IT2.UMFC-KO\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\IT2.UMFC-KO\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\IT2.UMFC-KO\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\IT2.UMFC-KO\\.nuget\\packages\\system.io.packaging\\4.5.0\\system.io.packaging.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
