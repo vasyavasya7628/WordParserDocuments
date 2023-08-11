@@ -1,0 +1,15 @@
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\Parser.exe
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\Parser.deps.json
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\Parser.runtimeconfig.json
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\Parser.dll
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\Parser.pdb
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.csproj.AssemblyReference.cache
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.AssemblyInfoInputs.cache
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.AssemblyInfo.cs
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.csproj.CoreCompileInputs.cache
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.dll
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\refint\Parser.dll
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.pdb
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.genruntimeconfig.cache
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\ref\Parser.dll
