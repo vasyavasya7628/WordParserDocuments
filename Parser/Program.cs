@@ -1,12 +1,6 @@
 ﻿using Parser;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        string wordFilePath = "new.docx";
-        string htmlOutput = WordToHtmlParser.ConvertToHtml(wordFilePath);
+var wordFilePath = "new.docx";
+var htmlOutput = WordToHtmlParser.ConvertToHtml(wordFilePath);
 
-        Console.WriteLine(htmlOutput);
-    }
-}
+Console.WriteLine(htmlOutput);
