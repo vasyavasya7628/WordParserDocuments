@@ -8,78 +8,40 @@
     ".NETCoreApp,Version=v6.0": {
       "Parser/1.0.0": {
         "dependencies": {
-          "DocX": "2.4.1"
+          "DocumentFormat.OpenXml": "3.0.0-beta0002"
         },
         "runtime": {
           "Parser.dll": {}
         }
       },
-      "DocX/2.4.1": {
+      "DocumentFormat.OpenXml/3.0.0-beta0002": {
         "dependencies": {
-          "System.Drawing.Common": "5.0.2",
-          "System.IO.Packaging": "4.5.0"
+          "DocumentFormat.OpenXml.Framework": "3.0.0-beta0002",
+          "System.IO.Packaging": "7.0.0"
         },
         "runtime": {
-          "lib/net5.0/Xceed.Document.NET5.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.0"
-          },
-          "lib/net5.0/Xceed.Words.NET5.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.0"
+          "lib/net6.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
-      "Microsoft.NETCore.Platforms/5.0.0": {},
-      "Microsoft.Win32.SystemEvents/5.0.0": {
+      "DocumentFormat.OpenXml.Framework/3.0.0-beta0002": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
+          "System.IO.Packaging": "7.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
-      "System.Drawing.Common/5.0.2": {
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "5.0.0"
-        },
+      "System.IO.Packaging/7.0.0": {
         "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "5.0.0.2",
-            "fileVersion": "5.0.421.11614"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.2",
-            "fileVersion": "5.0.421.11614"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.2",
-            "fileVersion": "5.0.421.11614"
-          }
-        }
-      },
-      "System.IO.Packaging/4.5.0": {
-        "runtime": {
-          "lib/netstandard2.0/System.IO.Packaging.dll": {
-            "assemblyVersion": "4.0.3.0",
-            "fileVersion": "4.6.26515.6"
+          "lib/net6.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
           }
         }
       }
@@ -91,40 +53,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DocX/2.4.1": {
+    "DocumentFormat.OpenXml/3.0.0-beta0002": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ceMqGtrbhEBlvx2b5ZuwABHmQmFQFyQ3DJ2AiSDiTR0CUqxz6XqUS4D6YzBFISLCGoFAyFBIZCmmA6ee4Wu+tA==",
-      "path": "docx/2.4.1",
-      "hashPath": "docx.2.4.1.nupkg.sha512"
+      "sha512": "sha512-P4Rkpk6HdNVre5vljqPB0c1p2KzF3cFXH5lKDJPxHJnY3MA4NKNz8NmeEeudlAfBriLvUkBf/t6g7r89C0JxdQ==",
+      "path": "documentformat.openxml/3.0.0-beta0002",
+      "hashPath": "documentformat.openxml.3.0.0-beta0002.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/5.0.0": {
+    "DocumentFormat.OpenXml.Framework/3.0.0-beta0002": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+      "sha512": "sha512-11ioLVx/GwiGpOmHaiewFFY7KLA6mO/nVmDXq1TqLCC9sOSirShm2u61xNg4gqROE846WfGdAIFatrVkucd2IA==",
+      "path": "documentformat.openxml.framework/3.0.0-beta0002",
+      "hashPath": "documentformat.openxml.framework.3.0.0-beta0002.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/5.0.0": {
+    "System.IO.Packaging/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
-      "path": "microsoft.win32.systemevents/5.0.0",
-      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
-    },
-    "System.Drawing.Common/5.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
-      "path": "system.drawing.common/5.0.2",
-      "hashPath": "system.drawing.common.5.0.2.nupkg.sha512"
-    },
-    "System.IO.Packaging/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OjtW5pGp1E7KE3ontBrzy+nSFJCM6pcbVDdo3gg4DauTfdtZKdeKvMVlADF4fSY+OfXWUp4qCvOSxIltt37LbA==",
-      "path": "system.io.packaging/4.5.0",
-      "hashPath": "system.io.packaging.4.5.0.nupkg.sha512"
+      "sha512": "sha512-+j5ezLP7785/pd4taKQhXAWsymsIW2nTnE/U3/jpGZzcJx5lip6qkj6UrxSE7ZYZfL0GaLuymwGLqwJV/c7O7Q==",
+      "path": "system.io.packaging/7.0.0",
+      "hashPath": "system.io.packaging.7.0.0.nupkg.sha512"
     }
   }
 }

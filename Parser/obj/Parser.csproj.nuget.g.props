@@ -12,7 +12,4 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\IT2.UMFC-KO\.nuget\packages\" />
   </ItemGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgDocX Condition=" '$(PkgDocX)' == '' ">C:\Users\IT2.UMFC-KO\.nuget\packages\docx\2.4.1</PkgDocX>
-  </PropertyGroup>
 </Project>
