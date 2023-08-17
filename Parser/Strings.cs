@@ -23,6 +23,9 @@ public static class HtmlStrings
     font-size: 16px;
     margin: 0;
     }
+    .no-wrap {
+    white-space: nowrap;
+    }
     .under_text {
     
     font-size: 10px;

@@ -2,11 +2,14 @@
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
+using Parser;
 
 //1) если есть underscore тогда заменить количество символов underscore на переменную и оставшиеся на пробелы
 //1) если есть underscore тогда заменить количество символов underscore на   border-bottom: 1px solid black размером с количество underscore
 class Program
 {
+    public static string htmlContent = "";
+
     static void Main(string[] args)
     {
         string inputPath = "new.docx";
@@ -28,7 +31,8 @@ class Program
     // Рекурсивная функция для извлечения содержимого из элементов Open XML
     static string ExtractContent(OpenXmlElement element)
     {
-        string content = "";
+        var content = "";
+        content += HtmlStrings.Head();
         foreach (var childElement in element.Elements())
         {
             if (childElement is Text)
@@ -43,15 +47,20 @@ class Program
             {
                 // Получение выравнивания абзаца
                 string alignment = GetParagraphAlignment(childElement as Paragraph);
-
+                var replace = "";
                 // Преобразование выравнивания в HTML-атрибут
                 string alignmentAttribute = !string.IsNullOrEmpty(alignment) ? $" align=\"{alignment}\"" : "";
                 Regex underscorePattern = new Regex(@"\w+_.+");
-                Regex regex = new Regex(underscorePattern.IsMatch(ExtractContent(childElement)));
-                if()
-                int lineLength = ExtractContent(childElement).Length;// длина строки
-                
-                content += $"<p{alignmentAttribute}>" + ExtractContent(childElement) + "</p>";
+                if (underscorePattern.IsMatch(ExtractContent(childElement)))
+                {
+                    int lineLength = ExtractContent(childElement).Length;
+                    replace = ExtractContent(childElement).Replace("_", "<u>&nbsp</u>");
+                    int underScoreCount = lineLength - replace.Length;
+                    content += $"<p{alignmentAttribute} class=\"no-wrap\"> " +
+                               replace +
+                               "</p>";
+                }
+                else content += $"<p{alignmentAttribute}>" + ExtractContent(childElement) + "</p>";
             }
             else if (childElement is Table)
             {
