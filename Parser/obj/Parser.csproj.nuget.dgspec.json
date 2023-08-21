@@ -40,6 +40,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Costura.Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.8.0-alpha0098, )"
+            },
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[3.0.0-beta0002, )"
