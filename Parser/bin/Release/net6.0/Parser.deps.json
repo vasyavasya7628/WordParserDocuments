@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Parser/1.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.0.0-beta0002"
+        },
+        "runtime": {
+          "Parser.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/3.0.0-beta0002": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.0-beta0002",
+          "System.IO.Packaging": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.0-beta0002": {
+        "dependencies": {
+          "System.IO.Packaging": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "System.IO.Packaging/7.0.0": {
+        "runtime": {
+          "lib/net6.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml/3.0.0-beta0002": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P4Rkpk6HdNVre5vljqPB0c1p2KzF3cFXH5lKDJPxHJnY3MA4NKNz8NmeEeudlAfBriLvUkBf/t6g7r89C0JxdQ==",
+      "path": "documentformat.openxml/3.0.0-beta0002",
+      "hashPath": "documentformat.openxml.3.0.0-beta0002.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.0-beta0002": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-11ioLVx/GwiGpOmHaiewFFY7KLA6mO/nVmDXq1TqLCC9sOSirShm2u61xNg4gqROE846WfGdAIFatrVkucd2IA==",
+      "path": "documentformat.openxml.framework/3.0.0-beta0002",
+      "hashPath": "documentformat.openxml.framework.3.0.0-beta0002.nupkg.sha512"
+    },
+    "System.IO.Packaging/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+j5ezLP7785/pd4taKQhXAWsymsIW2nTnE/U3/jpGZzcJx5lip6qkj6UrxSE7ZYZfL0GaLuymwGLqwJV/c7O7Q==",
+      "path": "system.io.packaging/7.0.0",
+      "hashPath": "system.io.packaging.7.0.0.nupkg.sha512"
+    }
+  }
+}

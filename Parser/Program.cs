@@ -9,19 +9,31 @@ class Program
 {
     static void Main(string[] args)
     {
-        string inputPath = "new.docx";
+        string currentDirectory = Directory.GetCurrentDirectory();
+        string fileSearchPattern = "*.docx";
+        string inputPath = "*.docx";
         string outputPath = "output.html";
-
-        using (WordprocessingDocument doc = WordprocessingDocument.Open(inputPath, false))
+        try
         {
-            // Извлечение содержимого из документа Word
-            var content = ExtractContent(doc.MainDocumentPart.Document.Body);
+            string[] files = Directory.GetFiles(currentDirectory, fileSearchPattern);
+            foreach (var inputfile in files)
+            {
+                using (WordprocessingDocument doc = WordprocessingDocument.Open(inputfile, false))
+                {
+                    // Извлечение содержимого из документа Word
+                    var content = ExtractContent(doc.MainDocumentPart.Document.Body);
 
-            // Создание HTML-кода из содержимого
-            string html = GenerateHtmlFromContent(content);
+                    // Создание HTML-кода из содержимого
+                    string html = GenerateHtmlFromContent(content);
 
-            // Сохранение HTML-кода в файл
-            File.WriteAllText(outputPath, html);
+                    // Сохранение HTML-кода в файл
+                    File.WriteAllText(Path.GetFileNameWithoutExtension(inputfile) + "_конвертирован" + ".html", html);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("404 File not found");
         }
     }
 
