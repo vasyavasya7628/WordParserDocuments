@@ -13,7 +13,4 @@ C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\refint\Parser.
 C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.pdb
 C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.genruntimeconfig.cache
 C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\ref\Parser.dll
-C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\System.IO.Packaging.dll
-C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.csproj.CopyComplete
-C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
-C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\bin\Debug\net6.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\IT2.UMFC-KO\RiderProjects\Parser\Parser\obj\Debug\net6.0\Parser.csproj.Fody.CopyLocal.cache
